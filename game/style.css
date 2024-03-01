@@ -1,4 +1,4 @@
-/* Importing Google font - Open Sans */
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 * {
     margin: 0;
@@ -16,6 +16,7 @@ body {
 }
 .container {
     display: flex;
+    width: 850px;
     gap: 70px;
     padding: 60px 40px;
     background: #fff;
@@ -130,7 +131,7 @@ body {
     max-width: 130px;
     margin-bottom: 20px;
 }
-.game-modal img {
+.game-modal img[src="images/victory.gif"] {
     margin-left: -10px;
 }
 .game-modal h4 {
@@ -155,7 +156,7 @@ body {
         padding: 30px 15px;
         align-items: center;
     }
-.hangman-box img {
+    .hangman-box img {
         max-width: 200px;
     }
     .hangman-box h1 {
